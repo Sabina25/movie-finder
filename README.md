@@ -1,3 +1,7 @@
+In this project, you can find a movie by title and get general information about it.
+The project was created to improve practical skills of working with React.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
