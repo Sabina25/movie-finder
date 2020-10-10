@@ -65,7 +65,7 @@ class App extends React.Component {
           this.state.currentMovie == null ? <div><Search handleSubmit={this.handleSubmit} handleChange={this.handleChange}/><MovieList viewMovieInfo={this.viewMovieInfo} movies={this.state.movies}/></div>  : 
           <MovieInfo closeMovieInfo={this.closeMovieInfo} currentMovie={this.state.currentMovie}/>
         }
-          {this.state.totalRes > 20 && this.state.currentMovie== null ?  <Pagination pages={numberPages} nextPage={this.nextPage} currentPage={this.currentPage}/> : ''}
+          {this.state.totalRes > 20 && this.state.currentMovie== null ?  <Pagination pages={numberPages} nextPage={this.nextPage} currentPage={this.state.currentPage}/> : ''}
    
        </div>
     )
